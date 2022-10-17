@@ -1,4 +1,4 @@
-# Projeto MongoDB Commerce 👥
+# Projeto MongoDB Commerce 🌱
 
 A partir do Banco de Dados contendo informações dos produtos da franquia `McDonald's`. Foi desenvolvido dasafios para selecionar as informações necessárias.
 
