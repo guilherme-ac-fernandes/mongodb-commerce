@@ -9,10 +9,10 @@ A partir do Banco de Dados contendo informações dos produtos da franquia `McDo
 
 | Desafio | Descrição |
 |---|---|
-| `1` | Query para retorna a quantidade de documentos inseridos na coleção produtos |
+| `1` | Query para retornar a quantidade de documentos inseridos na coleção produtos |
 | `2` | Query para ordenar a coleção produtos pela quantidade de lanches vendidos em ordem crescente |
 | `3` | Query para mostrar o lanche mais vendido |
-| `4` | Query para retorna todos os lanches com mais de 50 e menos de 100 vendas |
+| `4` | Query para retornar todos os lanches com mais de 50 e menos de 100 vendas |
 | `5` | Query que filtra os produtos que tem 36 curtidas ou 85 vendas no total |
 | `6` | Query que retorna os produtos com mais de 10 e menos de 100 curtidas |
 | `7` | Query que retorna os produtos com número de vendas diferente de 50 e que não tenha o campo `tags` |
