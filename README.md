@@ -38,6 +38,6 @@ A partir do Banco de Dados contendo informações dos produtos da franquia `McDo
 | `27` | Query que conta o número de documentos que contém as letras 'mc'no nome |
 | `28` | Query que conta quantos documentos com o campo ingredientes com quatro itens |
 | `29` | Query que renomeia o campo descricao para `descricaoSite` em todos os documentos |
-| `30` | Quary que remove o campo curtidas do item Big Mac |
+| `30` | Query que remove o campo curtidas do item Big Mac |
 | `31` | Query que retorna todos os documentos em que o número de curtidas é maior que o número de sanduíches vendidos |
 | `32` | Query que retorna todos os documentos em que o número de vendas é múltiplo de 5 |
