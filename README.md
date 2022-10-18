@@ -32,12 +32,12 @@ A partir do Banco de Dados contendo informações dos produtos da franquia `McDo
 | `21` | Query para remover o último ingrediente do sanduíche Cheddar McMelt |
 | `22` | Query para criar o campo vendasPorDia em todos os sanduíches  |
 | `23` | Query para adicionar os valores `combo` e `tasty` no array tags de todos os sanduíches em ordem alfabética |
-| `24` |  |
-| `25` |  |
-| `26` |  |
-| `27` |  |
-| `28` |  |
-| `29` |  |
-| `30` |  |
-| `31` |  |
-| `32` |  |
+| `24` | Query que ordena os valoresNutricionais presente nos documentos pelo campo percentual de forma decrescente |
+| `25` | Query que adiciona a tag 'muito sódio' nos produtos em que o percentual de sódio seja maior ou igual a 40 |
+| `26` | Query que adiciona a tag 'contém sódio' nos produtos em que o percentual de sódio seja maior do que 20 e menor do que 40 |
+| `27` | Query que conta o número de documentos que contém as letras 'mc'no nome |
+| `28` | Query que conta quantos documentos com o campo ingredientes com quatro itens |
+| `29` | Query que renomeia o campo descricao para `descricaoSite` em todos os documentos |
+| `30` | Quary que remove o campo curtidas do item Big Mac |
+| `31` | Query que retorna todos os documentos em que o número de curtidas é maior que o número de sanduíches vendidos |
+| `32` | Query que retorna todos os documentos em que o número de vendas é múltiplo de 5 |
