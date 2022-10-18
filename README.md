@@ -12,7 +12,7 @@ A partir do Banco de Dados contendo informações dos produtos da franquia `McDo
 | `1` | Query para retorna a quantidade de documentos inseridos na coleção produtos |
 | `2` | Query para ordenar a coleção produtos pela quantidade de lanches vendidos em ordem crescente |
 | `3` | Query para mostrar o lanche mais vendido |
-| `4` | Query todos os lanches com mais de 50 e menos de 100 vendas |
+| `4` | Query para retorna todos os lanches com mais de 50 e menos de 100 vendas |
 | `5` | Query que filtra os produtos que tem 36 curtidas ou 85 vendas no total |
 | `6` | Query que retorna os produtos com mais de 10 e menos de 100 curtidas |
 | `7` | Query que retorna os produtos com número de vendas diferente de 50 e que não tenha o campo `tags` |
@@ -20,7 +20,7 @@ A partir do Banco de Dados contendo informações dos produtos da franquia `McDo
 | `9` | Query para retornar todos os lanches com menos de 500 calorias |
 | `10` | Query para filtrar os lanches com mais de 30% e menos de 40% de proteínas |
 | `11` | Query para filtrar os lanches que não tenham os nomes: Big Mac e McChicken  |
-| `12` | Query para adicionar ketchup aos ingredientes para todos os sanduíches menos o McChicken |
+| `12` | Query para adicionar ketchup aos ingredientes para todos os sanduíches, exceto o McChicken |
 | `13` | Query para incluir o campo criadoPor em todos os documentos, com valor Ronald McDonald |
 | `14` | Query que retorne os lanches que possuem picles como ingredientes e mostre apenas os 3 primeiros itens no campo valoresNutricionais |
 | `15` | Query para adicionar o campo avaliacao em todos os documentos |
@@ -33,8 +33,8 @@ A partir do Banco de Dados contendo informações dos produtos da franquia `McDo
 | `22` | Query para criar o campo vendasPorDia em todos os sanduíches  |
 | `23` | Query para adicionar os valores `combo` e `tasty` no array tags de todos os sanduíches em ordem alfabética |
 | `24` | Query que ordena os valoresNutricionais presente nos documentos pelo campo percentual de forma decrescente |
-| `25` | Query que adiciona a tag 'muito sódio' nos produtos em que o percentual de sódio seja maior ou igual a 40 |
-| `26` | Query que adiciona a tag 'contém sódio' nos produtos em que o percentual de sódio seja maior do que 20 e menor do que 40 |
+| `25` | Query que adiciona a tag `muito sódio` nos produtos em que o percentual de sódio seja maior ou igual a 40 |
+| `26` | Query que adiciona a tag `contém sódio` nos produtos em que o percentual de sódio seja maior do que 20 e menor do que 40 |
 | `27` | Query que conta o número de documentos que contém as letras 'mc'no nome |
 | `28` | Query que conta quantos documentos com o campo ingredientes com quatro itens |
 | `29` | Query que renomeia o campo descricao para `descricaoSite` em todos os documentos |
